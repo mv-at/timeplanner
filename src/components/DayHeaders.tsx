@@ -23,7 +23,7 @@ const DayHeaders = (props: { days: number, firstDay: number }) => {
     }
 
     const formatDate = (date: Date) => {
-        return props.days > 7 ? (date.getDate() + '.') : (formatDay(date.getDay()) + ' ' + date.getDate() + '.');
+        return props.days > 7 ? (date.getDate() + '.') : (formatDay(date.getDay()) + ' ' + date.getDate() + '. ' + (date.getMonth() + 1) + '.');
     }
 
     const dayHeaders = [];
