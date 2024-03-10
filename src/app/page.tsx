@@ -24,7 +24,7 @@ export default function Home(props: { searchParams: { [name: string]: string | s
     }
 
     return (
-        <div className='min-h-screen w-full bg-zinc-800 flex flex-col'>
+        <div className='min-h-screen w-full bg-zinc-800 flex flex-col noselect'>
             <CalenderView days={getDays()} firstDay={getFirstDay()}/>
         </div>
     );

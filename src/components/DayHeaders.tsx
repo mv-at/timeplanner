@@ -30,7 +30,7 @@ const DayHeaders = (props: { days: number, firstDay: number }) => {
 
     for (let i = 0; i < props.days; i++) {
         dayHeaders.push(<div key={i}
-                             className={'row-start-1 flex justify-center items-center border-white ' + (i == props.days - 1 ? 'border-x-2' : 'border-l-2')}
+                             className={'row-start-1 flex justify-center items-center border-white px-1 ' + (i == props.days - 1 ? 'border-x-2' : 'border-l-2')}
                              style={{gridColumnStart: i + 3}}>
             <span className="text-white font-bold">{formatDate(new Date(props.firstDay + i * 86400000))}</span>
         </div>);
