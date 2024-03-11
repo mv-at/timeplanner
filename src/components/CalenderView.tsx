@@ -1,4 +1,3 @@
-import TimeButtons from "@/components/TimeButtons";
 import AppTitle from "@/components/AppTitle";
 import DayHeaders from "@/components/DayHeaders";
 import ScheduleEntry from "@/components/ScheduleEntry";
@@ -11,8 +10,8 @@ const CalenderView = (props: { days: number, firstDay: number }) => {
 
     return (
         <div className='grid flex-1' style={{
-            gridTemplateColumns: '350px 40px repeat(' + props.days + ', 1fr) 40px 60px',
-            gridTemplateRows: '40px repeat(' + pflichtfaecher.length + ', 80px) 30px repeat(' + freifaecher.length + ', 80px) 1fr'
+            gridTemplateColumns: '20rem 2.5rem repeat(' + props.days + ', 1fr) 2.5rem 3.5rem',
+            gridTemplateRows: '2.5rem repeat(' + pflichtfaecher.length + ', 5rem) 2.5rem repeat(' + freifaecher.length + ', 5rem) 1fr'
         }}>
             <AppTitle/>
             <div className='bg-gradient-to-r from-zinc-800 to-gray-800'
