@@ -51,6 +51,9 @@ const freifaecher: Schedule[] = [
             {name: "A5", start: new Date("5.14.2024").getTime(), end: new Date("6.3.2024").getTime()},
             {name: "A6", start: new Date("6.4.2024").getTime(), end: new Date("6.17.2024").getTime()},
         ]},
+    {name: "Schaltungssimulation", color: "#07bea3", id: '439.086',  url: "https://tc.tugraz.at/main/course/view.php?id=1440", tasks: [
+            {name: "A1", start: new Date("3.20.2024").getTime(), end: new Date("4.14.2024").getTime()},
+        ]},
 ];
 
 export {pflichtfaecher, freifaecher};
