@@ -1,11 +1,12 @@
 import AppTitle from "@/components/AppTitle";
 import DayHeaders from "@/components/DayHeaders";
 import ScheduleEntry from "@/components/ScheduleEntry";
-import {pflichtfaecher, freifaecher} from "@/lib/semesterAssignments";
 import TimeRangeCycler from "@/components/TimeRangeCycler";
+import * as fs from "fs";
 
 const CalenderView = (props: { days: number, firstDay: number }) => {
 
+    const {pflichtfaecher, freifaecher}: {pflichtfaecher: Schedule[], freifaecher: Schedule[]} = JSON.parse(fs.readFileSync(process.env.CONFIG_PATH || '/data/config.json', 'utf-8'))
     const rows = pflichtfaecher.length + 1 + freifaecher.length;
 
     return (

@@ -1,0 +1,250 @@
+{
+  "pflichtfaecher": [
+    {
+      "name": "AVS",
+      "color": "#ff8723",
+      "id": "448.011",
+      "url": "https://tc.tugraz.at/main/course/view.php?id=364",
+      "tasks": [
+        {
+          "name": "MPI Tutorial",
+          "start": 1712700000000,
+          "end": 1714428000000
+        },
+        {
+          "name": "MP0",
+          "start": 1714514400000,
+          "end": 1715032800000
+        },
+        {
+          "name": "MP1",
+          "start": 1715119200000,
+          "end": 1715637600000
+        },
+        {
+          "name": "MP2",
+          "start": 1715724000000,
+          "end": 1716847200000
+        }
+      ]
+    },
+    {
+      "name": "D & A",
+      "color": "#fffa1a",
+      "id": "INF.04032UF",
+      "url": "https://tc.tugraz.at/main/course/view.php?id=1561",
+      "tasks": [
+        {
+          "name": "Blatt 1",
+          "start": 1709852400000,
+          "end": 1711062000000
+        }
+      ]
+    },
+    {
+      "name": "Data Management",
+      "color": "#00a3ff",
+      "id": "INF.02018UF",
+      "url": "https://tc.tugraz.at/main/course/view.php?id=1998",
+      "tasks": [
+        {
+          "name": "Exercise 1",
+          "start": 1710716400000,
+          "end": 1711407600000
+        },
+        {
+          "name": "Exercise 2",
+          "start": 1713736800000,
+          "end": 1715032800000
+        },
+        {
+          "name": "Exercise 3",
+          "start": 1715551200000,
+          "end": 1716847200000
+        }
+      ]
+    },
+    {
+      "name": "Signalverarbeitung",
+      "color": "#03be5c",
+      "id": "442.002",
+      "url": "https://tc.tugraz.at/main/course/view.php?id=615",
+      "tasks": [
+        {
+          "name": "A1",
+          "start": 1709247600000,
+          "end": 1710630000000
+        },
+        {
+          "name": "A2",
+          "start": 1710716400000,
+          "end": 1711234800000
+        },
+        {
+          "name": "A3",
+          "start": 1711321200000,
+          "end": 1713650400000
+        },
+        {
+          "name": "A4",
+          "start": 1713736800000,
+          "end": 1714255200000
+        },
+        {
+          "name": "A5",
+          "start": 1714341600000,
+          "end": 1714860000000
+        },
+        {
+          "name": "A6",
+          "start": 1714946400000,
+          "end": 1716069600000
+        },
+        {
+          "name": "A7",
+          "start": 1716156000000,
+          "end": 1717884000000
+        },
+        {
+          "name": "A8",
+          "start": 1717970400000,
+          "end": 1718488800000
+        }
+      ]
+    },
+    {
+      "name": "SigV KV",
+      "color": "#11ad14",
+      "id": "442.004",
+      "url": "https://tc.tugraz.at/main/course/view.php?id=2400",
+      "tasks": [
+        {
+          "name": "Frage 1",
+          "start": 1709766000000,
+          "end": 1710025200000
+        },
+        {
+          "name": "Frage 2",
+          "start": 1710975600000,
+          "end": 1712440800000
+        },
+        {
+          "name": "Frage 3",
+          "start": 1713391200000,
+          "end": 1713650400000
+        },
+        {
+          "name": "Frage 4",
+          "start": 1715205600000,
+          "end": 1715464800000
+        },
+        {
+          "name": "Frage 5",
+          "start": 1715810400000,
+          "end": 1717279200000
+        },
+        {
+          "name": "Frage 6",
+          "start": 1717365600000,
+          "end": 1717884000000
+        },
+        {
+          "name": "Frage 7",
+          "start": 1718834400000,
+          "end": 1719093600000
+        }
+      ]
+    },
+    {
+      "name": "SLP",
+      "color": "#e51616",
+      "id": "705.004",
+      "url": "https://www.iaik.tugraz.at/teaching/materials/slp/assignments/",
+      "tasks": [
+        {
+          "name": "A1",
+          "start": 1709247600000,
+          "end": 1710370800000
+        },
+        {
+          "name": "A2",
+          "start": 1710457200000,
+          "end": 1712786400000
+        },
+        {
+          "name": "A3",
+          "start": 1712872800000,
+          "end": 1713996000000
+        },
+        {
+          "name": "A4",
+          "start": 1714082400000,
+          "end": 1715205600000
+        },
+        {
+          "name": "A5",
+          "start": 1715292000000,
+          "end": 1716415200000
+        },
+        {
+          "name": "A6",
+          "start": 1716501600000,
+          "end": 1717624800000
+        }
+      ]
+    }
+  ],
+  "freifaecher": [
+    {
+      "name": "Programmieren C++",
+      "color": "#a21862",
+      "id": "MAT.156UF",
+      "url": "https://imsc.uni-graz.at/haasegu/Lectures/Kurs-C/SS24/index.html",
+      "tasks": [
+        {
+          "name": "A1",
+          "start": 1709247600000,
+          "end": 1710716400000
+        },
+        {
+          "name": "A2",
+          "start": 1710802800000,
+          "end": 1713132000000
+        },
+        {
+          "name": "A3",
+          "start": 1713218400000,
+          "end": 1714341600000
+        },
+        {
+          "name": "A4",
+          "start": 1714428000000,
+          "end": 1715551200000
+        },
+        {
+          "name": "A5",
+          "start": 1715637600000,
+          "end": 1717365600000
+        },
+        {
+          "name": "A6",
+          "start": 1717452000000,
+          "end": 1718575200000
+        }
+      ]
+    },
+    {
+      "name": "Schaltungssimulation",
+      "color": "#07bea3",
+      "id": "439.086",
+      "url": "https://tc.tugraz.at/main/course/view.php?id=1440",
+      "tasks": [
+        {
+          "name": "A1",
+          "start": 1710889200000,
+          "end": 1713045600000
+        }
+      ]
+    }
+  ]
+}
